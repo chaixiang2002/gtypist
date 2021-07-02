@@ -32,7 +32,7 @@
 #ifdef HAVE_PDCURSES
 #include <curses.h>
 #else
-#include <ncursesw/ncurses.h>
+#include <ncurses.h>
 #endif
 
 #include <time.h>

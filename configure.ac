@@ -46,7 +46,7 @@ AC_CHECK_FUNCS([__argz_count __argz_next __argz_stringify dcgettext getcwd getwd
 
 # check for libncursesw
 
-AC_CHECK_HEADER(ncursesw/ncurses.h, HAVE_NCURSESW_H=1)
+AC_CHECK_HEADER(ncurses.h, HAVE_NCURSESW_H=1)
 AC_CHECK_LIB(ncursesw, add_wch, HAVE_LIBNCURSESW=1)
 if test -n "$HAVE_NCURSESW_H" -a -n "$HAVE_LIBNCURSESW";  then
    LIBS="-lncursesw $LIBS"
