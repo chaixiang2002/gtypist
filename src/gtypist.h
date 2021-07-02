@@ -20,13 +20,6 @@
 #ifndef GTYPIST_H
 #define GTYPIST_H
 
-/* some screen postions */
-#define	MESSAGE_LINE		(LINES - 1)
-#define B_TOP_LINE		0
-#define T_TOP_LINE		(B_TOP_LINE + 1)
-#define I_TOP_LINE		(T_TOP_LINE)
-#define DP_TOP_LINE		(I_TOP_LINE + 2)
-
 // Color pairs used
 enum
 {
@@ -36,16 +29,5 @@ enum
    C_PROG_VERSION,	// for the program's version
    C_MENU_TITLE
 };
-
-/* shortcuts for reverse/normal mode strings */
-#define ADDSTR(X) wideaddstr(X)
-#define ADDSTR_REV(X) wideaddstr_rev(X)
-#define ADDCH(X) wideaddch(X)
-#define ADDCH_REV(X) wideaddch_rev(X)
-
-/* get the path to the .gtypistrc file
-   caller must free memory! */
-char* get_config_file_path();
-
 
 #endif /* GTYPIST_H */

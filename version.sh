@@ -2,5 +2,5 @@
 
 # Central version definition.
 
-VERSION=2.10dev
+VERSION=2.9.5
 echo -n $VERSION

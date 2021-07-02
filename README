@@ -1,5 +1,10 @@
 			GNU Typist - Typing Tutor
 
+Modifications
+-------------
+* Single space after period from https://github.com/inaimathi/gtypist-single-space
+* Shows the frequency of incorrectly typed letters and writes it to ~/thisfile.txt for research purposes
+
 Introduction
 ------------
 

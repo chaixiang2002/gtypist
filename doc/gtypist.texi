@@ -10,20 +10,16 @@ This manual is for GNU Typist (version @value{VERSION}, @value{UPDATED}),
 a program to learn typing in several languages and for different
 keyboard layouts.
 
-Copyright @copyright{} 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2008, 2011
-Free Software Foundation, Inc.
+Copyright @copyright{} 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2008,
+2011, 2012 Free Software Foundation, Inc.
 
 @quotation
 Permission is granted to copy, distribute and/or modify this document
-under the terms of the GNU Free Documentation License, Version 1.2 or
+under the terms of the GNU Free Documentation License, Version 1.3 or
 any later version published by the Free Software Foundation; with no
-Invariant Sections, with the Front-Cover texts being ``A GNU Manual,''
-and with the Back-Cover Texts as in (a) below.  A copy of the license is
-included in the section entitled ``GNU Free Documentation License.''
-
-(a) The FSF's Back-Cover Text is: ``You have freedom to copy and modify
-this GNU Manual, like GNU software.  Copies published by the Free
-Software Foundation raise funds for GNU development.''
+Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+Texts.  A copy of the license is included in the section entitled
+``GNU Free Documentation License''.
 @end quotation
 @end copying
 
@@ -68,8 +64,6 @@ or create new ones.
                             copy and share gtypist
 * Introduction::            Important concepts you need to know as a user
 * Invoking::                How to invoke gtypist
-* Configuration file::      Use the config file for saving command line options
-* Resize GTypist window::   How to resize the terminal window
 * Supplied lessons::        Overview of the lessons in the gtypist distribution
 * Using typefortune::       Practising with text from `fortune' (requires perl)
 * Script file commands::    Information about the syntax of gtypist lessons
@@ -118,8 +112,8 @@ You can obtain GNU Typist from a friend or from the Internet:
 GNU Typist is an interactive typing tutor program. It uses an input
 file to create a series of typing tutorials, drills, and speed
 tests. It is intended to be used on raw terminals without graphics. It
-has been compiled and used in GNU/Linux and Unix (OpenBSD, AIX,
-Solaris) and also in Windows.
+has been compiled and used on GNU/Linux and Unix (OpenBSD, AIX,
+Solaris) and also on Windows.
 
 The program reads lessons written in an easy-to-learn scripting
 language. It is distributed with several complete and good
@@ -181,7 +175,7 @@ If preferred, speeds can be displayed in Characters Per Minute
 (@acronym{CPM}).  This can be done by specifying ``--scoring=cpm'' at
 the command line.
 
-@node Invoking, Configuration file, Introduction, Top
+@node Invoking, Supplied lessons, Introduction, Top
 @chapter Invoking
 
 The syntax to invoke GNU Typist is:
@@ -311,46 +305,7 @@ To run the lessons in the file @file{test.typ} of directory
 cursor, and running silently:@* @code{gtypist -t -q -l TEST1
 /tmp/test.typ}
 
-@node Configuration file, Resize GTypist window, Invoking, Top
-@chapter Configuration file
-
-The GTypist configuration file @code{.gtypistrc}, which can be found
-in your home directory ($HOME) on UNIX, is used to remember common
-command line options (@pxref{Invoking}). Its format is simply one line
-per option, referenced by the short or long option name, but without
-the @code{-} or @code{--}.  Comment syntax starts with a @code{#}.
-
-Here is an example:
-@example
-# for beginners:
-max-error=10
-word-processor
-@end example
-
-@node Resize GTypist window, Supplied lessons, Configuration file, Top
-@chapter Resize GTypist window
-
-Resizing the GTypist window is a matter of resizing the terminal
-window that GTypist was started in. Depending on the platform,
-this can be achieved by:
-
-@table @code
-
-@item Linux/UNIX (GNOME/KDE/...)
-Hit @kbd{@key{Ctrl} -} (reduce) or @kbd{@key{Ctrl} +} (extend).
-
-@item Mac OS X
-Hit @kbd{@key{Command} -} (reduce) or @kbd{@key{Command} +} (extend).
-The @key{Command} key might be labeled @key{Cmd}.
-
-@item Microsoft Windows
-Click on the upper left corner of the terminal window and choose
-@code{Properties}. Change settings in the @code{Layout} tab of the
-window that appears.
-
-@end table
-
-@node Supplied lessons, Using typefortune, Resize GTypist window, Top
+@node Supplied lessons, Using typefortune, Invoking, Top
 @chapter Supplied lessons
 
 The following lessons are supplied with GNU Typist :
@@ -363,10 +318,12 @@ Long QWERTY course in English
 QWERTY touch typing in English
 @item v.typ
 Yet Another QWERTY in English
-@item w.typ
+@item u.typ
 QWERTY Review in English
 @item d.typ
 Dvorak touch typing in English
+@item c.typ
+Colemak touch typing in English
 @item m.typ
 Typing drills in English
 @item s.typ
@@ -375,19 +332,19 @@ Speed drills in English
 Calculator keypad in English
 @item gtypist.typ
 Compendium of all previous lessons in English
-@item esp.typ
-QWERTY course in Spanish
 @item cs.typ
 Lessons in Czech
+@item esp.typ
+QWERTY course in Spanish
 @item ru.typ
 Lessons in Russian
 @item kt*.typ
 These lessons are the standard lessons from
-@uref{http://ktouch.sourceforge.net/, Ktouch 1.6},
-which have been converted to
-gtypist's file format using @file{tools/ktouch2typ.pl}.
+@uref{http://ktouch.sourceforge.net/, Ktouch 1.6}, which have been
+converted to gtypist's file format with the included script,
+@file{tools/ktouch2typ.pl}.
 
-The files are called
+The files are:
 @file{ktbg.typ} (@file{bulgarian.ktouch.xml}),
 @file{ktbg_long.typ} (@file{bulgarian_long.ktouch.xml}),
 @file{ktde.typ} (@file{german.ktouch.xml}),

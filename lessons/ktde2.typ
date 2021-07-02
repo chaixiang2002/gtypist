@@ -1,7 +1,5 @@
 # created by ktouch2typ.pl from /home/felix/doks/gtypist/tools/../lessons/german3.ktouch.xml
 # on Do 23. Jun 19:51:55 CEST 2011
-# Updated by ktouch2typ.scm from /usr/share/kde4/apps/ktouch/Lecture/German/de.3.ktouch.xml
-# on Sun Apr  7 12:35:34 CEST 2013
 # ktouch title: Deutsch (auto-generated)
 # ktouch comment: frisch@vr-web.de>
 # ktouch2typ.pl is part of gtypist (http://www.gnu.org/software/gtypist/)
@@ -1178,12 +1176,12 @@ G:E_LESSON40
 
 *:S_LESSON41
 K:12:MENU
-B:                        Lesson 41: 6 und &
+B:                           Lesson 41: &
 *:LESSON41_D1
 I:(1)
 D:frf f5f ftf f6f f6f f6f f6ö f6l f6k f6f f5f f6f f6a f6s f6d f5f6f
  :6 Filme, 6 Gänge, 6 Arten, 6 Stäbe, 5 Gänge, 4 Gänge, 6 Geschenke
- :f6f f&f f&f f&f f&ö f&l f&k f&j; Ruf & May, Tal & Roy, Zug & Holl
+ :Holl
 G:E_LESSON41
 
 *:S_LESSON42
@@ -1223,8 +1221,8 @@ B:                         Lesson 45: Übung
 I:(1)
 D:Das Reisebüro in der Max-Planck-Straße 67 sucht Mitarbeiterinnen.
  :Sie Artikel 58, 67, 760 und 800 sind leider nicht mehr lieferbar.
- :Die Firma Schäfer & Kaiser AG sucht Mitarbeiter/Mitarbeiterinnen.
- :Steiner & Schneider GmbH liefern wieder Garten- und Campingmöbel.
+ :Kaiser AG sucht Mitarbeiter/Mitarbeiterinnen.
+ :Schneider GmbH liefern wieder Garten- und Campingmöbel.
 *:LESSON45_D2
 I:(2)
 D:Ihre Zeitschrift für Juli/August/September gefällt mir besonders.
@@ -1238,12 +1236,12 @@ G:E_LESSON45
 
 *:S_LESSON46
 K:12:MENU
-B:                        Lesson 46: 2 und "
+B:                           Lesson 46: "
 *:LESSON46_D1
 I:(1)
 D:f5f d4d s3s a2a a2a a2a a2ö a2l a2k a2j a2a a2f a2d a2s a2a s3s2a
  :2 Autos, 2 Bälle, 2 Werte, 2 Verse, 2 Augen, 2 Bären, 32 Arbeiten
- :a2a a"a a"a a"a a"f a"d a"s Marke "Roy", Marke "Boy", Marke "Roy"
+ :"
 G:E_LESSON46
 
 *:S_LESSON47
@@ -1258,23 +1256,23 @@ G:E_LESSON47
 
 *:S_LESSON48
 K:12:MENU
-B:                           Lesson 48: '
+B:Lesson 48: öäö ö#ö ö#ö ö#ö ö#j ö#k ö#l # 1, # 2, # 3, # 4, Artikel # 1 und 2
 *:LESSON48_D1
 I:(1)
 D:ö#ö ö'ö ö'ö ö'j ö'k ö'l - 's ist schade. Das war 'n Riesenerfolg!
  :Die Artikel 10, 20 und 21 können wir von Laurenz' Mühle beziehen.
- :Die Firma schreibt: "Das Modell 'London' gefällt unseren Kunden."
- :"Wann", fragt Max Braun, "ist das Modell 'Rom' wieder lieferbar?"
+ :"
+ :"
 *:LESSON48_D2
 I:(2)
-D:Er sagte: "Der Artikel 'Kairo' soll in 'Paris' umbenannt werden."
+D:"
  :Sehr geehrte Damen und Herren! Für Ihre Anfrage danken wir Ihnen.
  :Sehr geehrte Damen und Herren, für Ihre Anfrage danken wir Ihnen.
- :Unsere Werbeleiterin meinte: "Wir brauchen einen neuen Prospekt."
+ :"
 *:LESSON48_D3
 I:(3)
-D:"Wie gefällt Ihnen mein Entwurf?", fragte darauf Herr Dr. Becker.
- :"Ihr erster Entwurf ist ein Knüller!", meinten dann die Kollegen.
+D:, fragte darauf Herr Dr. Becker.
+ :, meinten dann die Kollegen.
 G:E_LESSON48
 
 *:S_LESSON49
@@ -1312,6 +1310,7 @@ D:Er hat die Schnauze voll. Bruno benahm sich leider großschnäuzig.
 I:(4)
 D:Der 5 : 3-Sieg unserer Fußballmannschaft war gewiss hochverdient.
 G:E_LESSON50
+
 
 # jump-table
 *:E_LESSON1
@@ -1514,7 +1513,7 @@ G:S_LESSON50
 G:MENU
 
 *:MENU
-M: "German (auto-generated)"
+M: "ktouch lesson: Deutsch (auto-generated)"
  :S_LESSON1 "Grundstellung (1)"
  :S_LESSON2 "Grundstellung (2)"
  :S_LESSON3 "e und i"
@@ -1555,13 +1554,13 @@ M: "German (auto-generated)"
  :S_LESSON38 "5 und %"
  :S_LESSON39 "8 und ("
  :S_LESSON40 "Übung"
- :S_LESSON41 "6 und &"
+ :S_LESSON41 "&"
  :S_LESSON42 "7 und /"
  :S_LESSON43 "3 und §"
  :S_LESSON44 "0 und ="
  :S_LESSON45 "Übung"
- :S_LESSON46 "2 und ""
+ :S_LESSON46 """
  :S_LESSON47 "1 und !"
- :S_LESSON48 "'"
+ :S_LESSON48 "öäö ö#ö ö#ö ö#ö ö#j ö#k ö#l # 1, # 2, # 3, # 4, Artikel # 1 und 2"
  :S_LESSON49 "+ und *"
  :S_LESSON50 "Übung"
